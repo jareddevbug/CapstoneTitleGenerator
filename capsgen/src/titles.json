@@ -1,0 +1,1382 @@
+[
+  {
+    "title": "Smart Monitoring System for Elderly Care",
+    "devices": ["IoT sensors", "mobile app"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Automated Crop Monitoring and Irrigation System",
+    "devices": ["Arduino", "Raspberry Pi", "sensors"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Simulation for Surgical Training",
+    "devices": ["VR headset", "haptic feedback devices"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "AI-Powered Personalized Learning Platform",
+    "devices": ["web application", "machine learning models"],
+    "genre": "Academics"
+  },
+  {
+    "title": "Telemedicine App for Remote Consultations",
+    "devices": ["mobile app", "video conferencing"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Inventory Management System for Retail",
+    "devices": ["RFID scanners", "database system"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Autonomous Drone for Crop Dusting",
+    "devices": ["drone", "GPS navigation system"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Blockchain-Based Credential Verification System",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Augmented Reality Campus Navigation App",
+    "devices": ["AR glasses", "indoor positioning system"],
+    "genre": "Academics"
+  },
+  {
+    "title": "Smart Home Energy Management System",
+    "devices": ["smart meters", "home automation devices"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Mobile App for Mental Health Monitoring",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Precision Agriculture Using IoT and AI",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Farming"
+  },
+  {
+    "title": "E-Learning Platform for Vocational Training",
+    "devices": ["web application", "video conferencing"],
+    "genre": "Academics"
+  },
+  {
+    "title": "Robotic Surgery Assistant",
+    "devices": ["robotic arms", "surgical instruments"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Traffic Management System",
+    "devices": ["traffic cameras", "IoT sensors"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "IoT-Based Water Quality Monitoring System",
+    "devices": ["IoT sensors", "water quality analyzers"],
+    "genre": "Environmental Monitoring"
+  },
+  {
+    "title": "Language Learning App with AI Tutor",
+    "devices": ["mobile app", "AI chatbot"],
+    "genre": "Education"
+  },
+  {
+    "title": "Automated Greenhouse Climate Control",
+    "devices": ["sensors", "automated actuators"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Blockchain Voting System",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Telepresence Robot for Remote Work",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Virtual Reality Field Trips for Schools",
+    "devices": ["VR headsets", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Waste Management System",
+    "devices": ["IoT sensors", "waste bins"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "AI-Powered Personal Health Assistant",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Autonomous Delivery Robot",
+    "devices": ["robot", "GPS navigation"],
+    "genre": "Technology"
+  },
+  {
+    "title": "IoT-Based Air Quality Monitoring",
+    "devices": ["IoT sensors", "air quality analyzers"],
+    "genre": "Environmental Monitoring"
+  },
+  {
+    "title": "Online Examination Proctoring System",
+    "devices": ["web application", "AI algorithms"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Grid Energy Management System",
+    "devices": ["smart meters", "energy storage systems"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Crop Disease Detection",
+    "devices": ["AI algorithms", "image processing tools"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Therapy for PTSD",
+    "devices": ["VR headset", "biofeedback sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Robotic Bartender",
+    "devices": ["robotic arms", "dispensing system"],
+    "genre": "Hospitality"
+  },
+  {
+    "title": "Smart Classroom Management System",
+    "devices": ["IoT sensors", "smartboards"],
+    "genre": "Education"
+  },
+  {
+    "title": "IoT-Based Flood Monitoring and Alert System",
+    "devices": ["IoT sensors", "flood gauges"],
+    "genre": "Environmental Monitoring"
+  },
+  {
+    "title": "AI-Powered Language Translation Device",
+    "devices": ["wearable device", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Smart Home Security System",
+    "devices": ["security cameras", "motion sensors"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telehealth Platform for Remote Patient Monitoring",
+    "devices": ["mobile app", "IoT sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Precision Agriculture Using Drone Technology",
+    "devices": ["drones", "AI algorithms"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Blockchain-Based Supply Chain Transparency",
+    "devices": ["blockchain network", "IoT sensors"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Virtual Reality Museum Tours",
+    "devices": ["VR headsets", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart City Traffic Optimization",
+    "devices": ["traffic cameras", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "AI-Driven Personalized Shopping Assistant",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Physical Therapy",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Soil Moisture Monitoring System",
+    "devices": ["IoT sensors", "soil moisture probes"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Architecture Visualization",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Intellectual Property Protection",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Fitness Coach",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Renewable Energy Integration",
+    "devices": ["smart meters", "renewable energy sources"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Traffic Management System",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Real-Time Language Translation",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Hydroponics System",
+    "devices": ["sensors", "automated actuators"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Chemistry Lab Simulations",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Lighting Automation",
+    "devices": ["smart bulbs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Elderly Companionship",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Blockchain-Based Healthcare Records Management",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "AI-Powered Personal Finance Advisor",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart Parking System",
+    "devices": ["IoT sensors", "mobile app"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Patient Scheduling System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation System",
+    "devices": ["IoT sensors", "automated valves"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Training for Emergency Responders",
+    "devices": ["VR headset", "simulation software"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "AI-Driven Student Performance Analysis",
+    "devices": ["web application", "machine learning models"],
+    "genre": "Academics"
+  },
+  {
+    "title": "Smart Wearable for Health Monitoring",
+    "devices": ["wearable sensors", "mobile app"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Retail Shelf Management System",
+    "devices": ["IoT sensors", "database system"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Precision Livestock Farming Using IoT",
+    "devices": ["IoT sensors", "RFID tags"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Decentralized Finance Platform",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Finance"
+  },
+  {
+    "title": "AI-Powered Campus Safety System",
+    "devices": ["security cameras", "AI algorithms"],
+    "genre": "Academics"
+  },
+  {
+    "title": "Smart Home Heating and Cooling System",
+    "devices": ["thermostats", "HVAC controls"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telehealth Kiosk for Remote Areas",
+    "devices": ["kiosk", "video conferencing"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Farming with IoT and Drones",
+    "devices": ["drones", "IoT sensors"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Online Tutoring Platform with AI",
+    "devices": ["web application", "AI chatbot"],
+    "genre": "Academics"
+  },
+  {
+    "title": "Robotic Nurse Assistant",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Street Lighting",
+    "devices": ["smart bulbs", "IoT sensors"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Air Pollution Monitoring and Alert System",
+    "devices": ["IoT sensors", "air quality analyzers"],
+    "genre": "Environmental Monitoring"
+  },
+  {
+    "title": "AI-Driven Language Learning Platform",
+    "devices": ["web application", "AI algorithms"],
+    "genre": "Education"
+  },
+  {
+    "title": "Automated Weather Station for Farms",
+    "devices": ["IoT sensors", "weather instruments"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Blockchain-Based Land Registry System",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Remote-Controlled Telepresence Robot",
+    "devices": ["robot", "remote control"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Virtual Reality Tour for Historical Sites",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "IoT-Based Smart Water Management System",
+    "devices": ["IoT sensors", "water meters"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "AI-Driven Health Diagnostics App",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Autonomous Warehouse Robot",
+    "devices": ["robot", "navigation system"],
+    "genre": "Technology"
+  },
+  {
+    "title": "IoT-Based Noise Pollution Monitoring",
+    "devices": ["IoT sensors", "noise analyzers"],
+    "genre": "Environmental Monitoring"
+  },
+  {
+    "title": "AI-Powered Student Assessment System",
+    "devices": ["web application", "AI algorithms"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Energy Meter for Home Automation",
+    "devices": ["smart meters", "home automation hub"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Crop Yield Prediction",
+    "devices": ["AI algorithms", "satellite imagery"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Therapy for Anxiety",
+    "devices": ["VR headset", "biofeedback sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Automated Hotel Check-In System",
+    "devices": ["kiosk", "database system"],
+    "genre": "Hospitality"
+  },
+  {
+    "title": "IoT-Based Classroom Environment Monitoring",
+    "devices": ["IoT sensors", "display system"],
+    "genre": "Education"
+  },
+  {
+    "title": "IoT-Based Water Conservation System",
+    "devices": ["IoT sensors", "automated valves"],
+    "genre": "Environmental Monitoring"
+  },
+  {
+    "title": "AI-Powered Text Summarization Tool",
+    "devices": ["web application", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Smart Home Surveillance System",
+    "devices": ["security cameras", "IoT sensors"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telehealth App for Chronic Disease Management",
+    "devices": ["mobile app", "IoT sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Drone-Assisted Crop Mapping",
+    "devices": ["drones", "imaging sensors"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Blockchain-Based Secure Document Sharing",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Virtual Reality Science Experiments",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart City Waste Collection Optimization",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "AI-Driven E-commerce Personalization",
+    "devices": ["web application", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Elderly Care",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Weather Monitoring Station",
+    "devices": ["IoT sensors", "weather instruments"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Construction Visualization",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Secure Voting System",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Diet Coach",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Efficient Energy Distribution",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Smart City Infrastructure",
+    "devices": ["AI algorithms", "IoT sensors"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for On-Demand Language Translation",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Aquaponics System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Physics Lab Simulations",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Appliance Control System",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Hospital Visits",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Blockchain-Based Supply Chain Finance",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Finance"
+  },
+  {
+    "title": "AI-Powered Investment Advisor",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Public Transportation System",
+    "devices": ["IoT sensors", "mobile app"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Appointment Booking System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Pest Monitoring System",
+    "devices": ["IoT sensors", "image recognition"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Travel Experiences",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Infrastructure Management",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Shopping Deals",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Surgical Procedures",
+    "devices": ["robotic arms", "surgical tools"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Soil Health Monitoring",
+    "devices": ["IoT sensors", "soil analyzers"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Interior Design Tool",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Real Estate Transactions",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Fitness Trainer",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Electric Vehicle Charging",
+    "devices": ["smart meters", "charging stations"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Traffic Flow Optimization",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Instant Language Translation",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Vertical Farming System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Biology Lab Simulations",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Security and Surveillance",
+    "devices": ["security cameras", "motion sensors"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Classroom Interaction",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Healthcare Data Exchange",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "AI-Powered Budgeting App",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Waste Management Optimization",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Patient Check-In System",
+    "devices": ["kiosk", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Greenhouse System",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Language Learning",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Collection",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Retail Offers",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Medical Procedures",
+    "devices": ["robotic arms", "surgical instruments"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Farming Solutions",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Design Visualization",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Smart Contracts for Real Estate",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Health Coach",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Renewable Energy Management",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Smart City Traffic Control",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Language Learning",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Education"
+  },
+  {
+    "title": "Automated Indoor Farming System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Science Lab Simulations",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Appliance Management",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Medical Consultations",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Blockchain-Based Secure Medical Records",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "AI-Powered Investment Management",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Public Safety System",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Medical Appointment System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Agriculture Solutions",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Historical Tours",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven Smart City Waste Management",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Shopping",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Rehabilitation",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation Solutions",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Interior Visualization",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Real Estate Smart Contracts",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Wellness Coach",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Distributed Energy Resources",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Traffic Management Solutions",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for On-Demand Translation",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Greenhouse Farming System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Education Platforms",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Energy Control",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Remote Learning",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Secure Data Sharing",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "AI-Powered Financial Planning",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Energy Management System",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Healthcare Scheduling System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Farm Management",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Historical Education",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Solutions",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Retail Promotions",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Physical Rehabilitation",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Design Tool",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Property Transactions",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Health Advisor",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Decentralized Energy Management",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered City Traffic Solutions",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Language Services",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Farm Management System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Education Solutions",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Energy Automation",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Educational Use",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Data Security",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "AI-Powered Wealth Management",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Energy Solutions",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Medical Scheduling",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Agriculture Management",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Historical Learning",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Management Solutions",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Retail Deals",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Therapy",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation Management",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Visualization Tool",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Property Smart Contracts",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Health Coach App",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Renewable Energy Solutions",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Smart City Traffic Management",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Language Translation",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Farm Irrigation System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Education Programs",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Automation System",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Remote Education",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Data Exchange",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "AI-Powered Investment Advisor",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Energy Management Solutions",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Healthcare Appointment System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Farm Management Solutions",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality History Education",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Management System",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Shopping Deals",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Physical Therapy System",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation Solution",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Home Design Tool",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Smart Contracts for Property",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Wellness App",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Energy Resource Management",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Traffic Management Systems",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Instant Translation",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Farming System",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Educational Programs",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Energy Automation System",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Distance Learning",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Secure Data Exchange",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "AI-Powered Financial Advisor",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Energy Management",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Medical Appointment System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Farm Management",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Historical Education Programs",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Management",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Retail Offers",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Physical Rehabilitation",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation Management System",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Home Design Visualization",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Smart Property Contracts",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Health Coaching",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Renewable Energy",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Traffic Control System",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Language Translation Services",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Farm Irrigation Management",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Education Tools",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Automation Hub",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Classroom Education",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Data Sharing",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "AI-Powered Wealth Advisor",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Public Safety",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Medical Scheduling System",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Farming Management",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Historical Education Tools",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Management Solution",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Personalized Shopping",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Retail"
+  },
+  {
+    "title": "Robot-Assisted Therapy System",
+    "devices": ["robotic arms", "sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Smart Irrigation System",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Augmented Reality Home Design Application",
+    "devices": ["AR glasses", "3D modeling software"],
+    "genre": "Architecture"
+  },
+  {
+    "title": "Blockchain-Based Property Smart Contracts",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Personalized AI Health Advisor App",
+    "devices": ["mobile app", "wearable sensors"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "Smart Grid for Energy Management",
+    "devices": ["smart meters", "energy management system"],
+    "genre": "Energy"
+  },
+  {
+    "title": "AI-Powered Traffic Control",
+    "devices": ["AI algorithms", "traffic cameras"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Mobile App for Translation Services",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Technology"
+  },
+  {
+    "title": "Automated Farm Management",
+    "devices": ["sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Education Applications",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "Smart Home Automation Solutions",
+    "devices": ["smart plugs", "home automation hub"],
+    "genre": "Home Automation"
+  },
+  {
+    "title": "Telepresence Robot for Distance Education",
+    "devices": ["robot", "video conferencing"],
+    "genre": "Education"
+  },
+  {
+    "title": "Blockchain-Based Secure Data Sharing Solutions",
+    "devices": ["blockchain network", "smart contracts"],
+    "genre": "Technology"
+  },
+  {
+    "title": "AI-Powered Investment Advisor App",
+    "devices": ["mobile app", "AI algorithms"],
+    "genre": "Finance"
+  },
+  {
+    "title": "Smart City Public Safety Solutions",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title": "Automated Healthcare Appointment Scheduling",
+    "devices": ["web application", "database system"],
+    "genre": "Healthcare"
+  },
+  {
+    "title": "IoT-Based Farm Management Solution",
+    "devices": ["IoT sensors", "automated controls"],
+    "genre": "Farming"
+  },
+  {
+    "title": "Virtual Reality Historical Education Applications",
+    "devices": ["VR headset", "educational content"],
+    "genre": "Education"
+  },
+  {
+    "title": "AI-Driven City Waste Management Services",
+    "devices": ["IoT sensors", "AI algorithms"],
+    "genre": "Smart City"
+  },
+  {
+    "title":"Tricyle Toda System",
+    "devices": ["Radio Frequency Identification Tag","GSM Module","Monitor"],
+    "genre": "Transportation"
+  },
+  {
+    "title":"TrendyBrew: A Dynamic Coffee Shop Ordering and Reservation System",
+    "devices": ["Radio Frequency Identification Tag","Portable Mini Printer","Quick Response Scanner","Barcode Scanner"],
+    "genre": "Retail"
+  }
+]
