@@ -150,7 +150,7 @@ function MainCont(props) {
               </div>
               <hr />
               <div className="col-md-12 p-3 text-white coffee d-flex justify-content-center">
-                <p>© 2024 Copyright</p>
+                <p>© 2024 Copyright IVY</p>
               </div>
             </div>
           </div>
