@@ -177,6 +177,7 @@ function MainCont(props) {
                   className="btn btn-primary ml-2"
                   onClick={handleCopyToClipboard}
                 >
+                  <i className="fa fa-clipboard"> </i> 
                   Copy
                 </button>
               </div>
