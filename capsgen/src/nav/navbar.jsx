@@ -5,7 +5,7 @@ function NavBar() {
         <h1>Capstone Title Generator</h1>
         <p>
           a side project built with react
-          <i className="fa fa-bug"> </i>
+          <i className="fa fa-frog"> </i>
         </p>
       </div>
     </>
