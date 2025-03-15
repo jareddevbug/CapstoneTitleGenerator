@@ -192,7 +192,7 @@ function MainCont(props) {
                   <i className="fab fa-github"></i> Github
                 </a>
               </div>
-              <div className="col-md-12 p-4 text-white item">
+              {/* <div className="col-md-12 p-4 text-white item">
                 <a href="#" target="blank">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </a>
@@ -201,10 +201,15 @@ function MainCont(props) {
                 <a href="#" target="blank">
                   <i className="fab fa-facebook"></i> Facebook
                 </a>
-              </div>
-              <div className="col-md-12 p-4 text-white item">
+              </div> */}
+              {/* <div className="col-md-12 p-4 text-white item">
                 <a href="#" target="blank">
                   <i className="fab fa-discord"></i> Discord
+                </a>
+              </div> */}
+              <div className="col-md-12 p-4 text-white item">
+                <a href="https://www.tiktok.com/@friedpalakokak" target="blank">
+                  <i className="fab fa-tiktok"></i> Tiktok
                 </a>
               </div>
               <hr />
