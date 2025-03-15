@@ -2,10 +2,9 @@ function NavBar() {
   return (
     <>
       <div className="container-fluid p-3 text-white text-center mainNav">
-        <h1>Capstone Title Generator</h1>
+        <h1>CapsGen<i className="fa fa-frog"> </i></h1>
         <p>
-          a side project built with react
-          <i className="fa fa-frog"> </i>
+          A side project, Capstone Title Generator built with react
         </p>
       </div>
     </>
