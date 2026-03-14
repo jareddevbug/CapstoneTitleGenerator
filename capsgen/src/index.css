@@ -1,15 +1,15 @@
 :root {
-  /* Define color variables for light and dark modes */
-  --background-light: #ffffff;
-  --background-dark: #1a1a1a;
-  --text-light: rgba(0, 0, 0, 0.87);
-  --text-dark: rgba(255, 255, 255, 0.87);
-  --primary-color-light: #198754; /* Orangered */
-  --primary-color-dark: #115e3a;
-  --hover-light: #d3d3d3;
-  --hover-dark: #198754c0;
+  --background-light: #f4f7fb;
+  --background-dark: #10161f;
+  --surface-light: rgba(255, 255, 255, 0.78);
+  --surface-dark: rgba(16, 22, 31, 0.86);
+  --text-light: #16202a;
+  --text-dark: #edf3fa;
+  --primary-color-light: #1b8f5a;
+  --primary-color-dark: #1fb971;
+  --hover-light: #e5eef8;
+  --hover-dark: #1f3045;
 
-  /* Set base styles */
   line-height: 1.5;
   color-scheme: light dark;
   color: light-dark(var(--text-light), var(--text-dark));
@@ -20,50 +20,75 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  background-color: light-dark(var(--background-light), var(--background-dark));
-  background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position: center;
-  background-blend-mode: overlay;
-  overflow-y: scroll;
-  min-height: 100vh;
-  background-size: cover;
+* {
+  box-sizing: border-box;
 }
 
-.mainNav p i {
-  margin-left: 5px;
+body {
+  margin: 0;
+  background-color: light-dark(var(--background-light), var(--background-dark));
+  background-image:
+    linear-gradient(135deg, rgba(13, 27, 42, 0.58), rgba(27, 143, 90, 0.32)),
+    url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1470&auto=format&fit=crop);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.mainNav {
+  backdrop-filter: blur(6px);
+  background: light-dark(var(--surface-light), var(--surface-dark));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.mainNav h1 {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+.mainNav p {
+  margin: 0.6rem 0 0;
+  opacity: 0.88;
 }
 
 .maincont {
-  gap: 10px;
-  background-color: transparent;
-  padding: 10px;
+  gap: 14px;
+  padding: 14px 8px 22px;
 }
 
 .contboxes {
-  border-radius: 4px;
-  transition: all 0.3s ease;
+  border-radius: 10px;
+  background: light-dark(var(--surface-light), var(--surface-dark));
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contboxes:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
 .fab {
-  margin-right: 5%;
+  margin-right: 8px;
 }
 
 .item {
-  cursor: pointer;
-  transition: all 0.3s;
+  border-radius: 8px;
+  transition: all 0.2s ease;
 }
 
 .item:hover {
   background-color: light-dark(var(--hover-light), var(--hover-dark));
-  text-align: center;
 }
 
 .item a,
 .coffee a,
 i {
   font-weight: 500;
-  font-size: medium;
   text-decoration: none;
   color: light-dark(var(--text-light), var(--text-dark));
 }
@@ -71,70 +96,116 @@ i {
 .coffee button {
   background-color: var(--primary-color-light);
   border: 0;
-  padding: 2%;
   border-radius: 7px;
-  width: 80%;
-  transition: 0.3s;
+  width: 100%;
+  max-width: 260px;
+  padding: 10px 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .coffee button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 15px 20px rgba(0, 173, 0, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(18, 140, 77, 0.25);
 }
 
 .textBox {
-  background-color: light-dark(var(--background-light), var(--background-dark));
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  border-radius: 5px;
-  transition: all 0.5s;
+  background-color: light-dark(var(--surface-light), var(--surface-dark));
+  border-radius: 8px;
 }
 
-#buttonGen, #buttonCopy {
-  padding: 1.2em 2em;
-  font-size: 10px;
+#buttonGen,
+#buttonCopy,
+#buttonClear,
+.surpriseBtn {
+  padding: 0.86rem 1.2rem;
+  font-size: 0.84rem;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: white;
-  /* background-color: var(--primary-color-light); */
-  border: none;
-  border-radius: 6px;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-#buttonGen:hover, #buttonCopy:hover {
-  /* background-color: var(--hover-light); */
-  transform: translateY(-7px);
-  box-shadow: 0px 15px 20px rgba(0, 173, 0, 0.2);
+#buttonGen:hover,
+#buttonCopy:hover,
+#buttonClear:hover,
+.surpriseBtn:hover {
+  transform: translateY(-2px);
+}
+
+#buttonGen:hover {
+  box-shadow: 0 8px 18px rgba(0, 173, 0, 0.2);
 }
 
 #buttonCopy:hover {
-  /* background-color: var(--hover-light); */
-  transform: translateY(-7px);
-  box-shadow: 0px 15px 20px rgba(0, 84, 173, 0.2);
+  box-shadow: 0 8px 18px rgba(0, 84, 173, 0.2);
 }
 
-#buttonGen:active, #buttonCopy:active {
-  transform: translateY(-1px);
+#buttonClear:hover {
+  box-shadow: 0 8px 18px rgba(140, 140, 140, 0.22);
 }
-
 
 .btnbox {
   margin-top: 10px;
   display: flex;
-  flex-direction: row;
-  gap: 1%;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .fieldBtn {
   background-color: var(--primary-color-light);
-  color: white;
+  color: #fff;
+  min-width: 180px;
 }
 
 .fieldBtn:hover {
-  background-color: white;
+  background-color: #fff;
+  color: #111;
+}
+
+.quickFieldWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filtersRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.filterInput {
+  border-radius: 8px;
+  border: 1px solid rgba(27, 143, 90, 0.45);
+  background: rgba(255, 255, 255, 0.95);
+  color: #1d2a38;
+}
+
+.filterInput:focus {
+  box-shadow: 0 0 0 0.2rem rgba(27, 143, 90, 0.2);
+  border-color: rgba(27, 143, 90, 0.9);
+}
+
+.filterStats {
+  font-size: 0.88rem;
+  opacity: 0.92;
+}
+
+.quickFieldChip {
+  border: 1px solid rgba(27, 143, 90, 0.6);
+  background: rgba(27, 143, 90, 0.12);
+  color: light-dark(var(--text-light), var(--text-dark));
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.78rem;
+  transition: all 0.2s ease;
+}
+
+.quickFieldChip:hover,
+.quickFieldChipActive {
+  background: rgba(27, 143, 90, 0.92);
+  color: #fff;
 }
 
 ul li {
@@ -143,7 +214,7 @@ ul li {
 }
 
 .mainBox {
-  border: 1px solid lightgray;
+  border: 1px solid rgba(230, 236, 243, 0.24);
 }
 
 .mainBox ul li {
@@ -152,14 +223,15 @@ ul li {
 
 .title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: larger;
+  font-size: 1.25rem;
+  line-height: 1.45;
 }
 
 .dropdown-menu {
   background-color: light-dark(var(--background-light), var(--background-dark));
   border: 0;
   box-shadow: inset 1px 1px 1px gray;
-  overflow-y: scroll;
+  overflow-y: auto;
   max-height: 300px;
 }
 
@@ -169,5 +241,123 @@ ul li {
 
 .dropdown-item:hover {
   background-color: light-dark(var(--hover-light), var(--hover-dark));
-  color: white;
+  color: #fff;
+}
+
+.recentCard {
+  background: rgba(16, 29, 45, 0.24);
+}
+
+.recentEmpty {
+  opacity: 0.75;
+  margin: 0;
+}
+
+.recentList {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.recentList li {
+  border-left: 3px solid rgba(27, 143, 90, 0.68);
+  padding-left: 8px;
+  line-height: 1.35;
+}
+
+@media (max-width: 992px) {
+  .maincont {
+    gap: 12px;
+  }
+
+  .fieldBtn {
+    min-width: 160px;
+  }
+
+  .btnbox {
+    justify-content: stretch;
+  }
+
+  #buttonGen,
+  #buttonCopy,
+  #buttonClear {
+    flex: 1;
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainNav h1 {
+    font-size: 1.6rem;
+  }
+
+  .mainNav p {
+    font-size: 0.92rem;
+  }
+
+  .maincont {
+    padding: 10px 4px 16px;
+  }
+
+  .contboxes {
+    border-radius: 8px;
+  }
+
+  .fieldDropdown,
+  .fieldDropdown .fieldBtn,
+  .surpriseBtn {
+    width: 100%;
+  }
+
+  .quickFieldChip {
+    font-size: 0.75rem;
+    padding: 0.32rem 0.72rem;
+  }
+
+  .filtersRow {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 1.06rem;
+  }
+
+  .item {
+    padding: 12px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #buttonGen,
+  #buttonCopy,
+  #buttonClear,
+  .surpriseBtn,
+  .fieldBtn {
+    font-size: 0.74rem;
+    letter-spacing: 0.05em;
+    padding: 0.76rem 0.9rem;
+  }
+
+  .btnbox {
+    flex-direction: column;
+  }
+
+  #buttonGen,
+  #buttonCopy,
+  #buttonClear {
+    width: 100%;
+  }
+
+  .mainNav {
+    padding: 14px 12px !important;
+  }
+
+  .mainNav h1 {
+    font-size: 1.4rem;
+  }
+
+  .mainNav p {
+    font-size: 0.86rem;
+  }
 }
