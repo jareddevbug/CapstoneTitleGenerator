@@ -1,8 +1,24 @@
-# React + Vite
+# CapsGen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend-only capstone title generator built with React and Vite.
 
-Currently, two official plugins are available:
+## Architecture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `src/data`: structured domain catalog and template definitions
+- `src/engine`: reusable title generation engine with seeded randomness
+- `src/components`: small, reusable UI components
+- `src/hooks`: local persistence helpers
+
+## Features
+
+- template-based title generation
+- domain, technology, and output filters
+- batch generation with optional deterministic seed
+- editable token swapping inside generated titles
+- local bookmarks, history, and filter persistence
+
+## Scripts
+
+- `npm run dev`
+- `npm run build`
+- `npm run test`

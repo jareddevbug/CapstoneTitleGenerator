@@ -1,0 +1,58 @@
+export const domains = [
+  {
+    id: "healthcare",
+    name: "Healthcare",
+    description: "Clinical support, patient care, wellness, and hospital operations.",
+    problemTypeIds: ["monitoring", "prediction", "management", "tracking", "recommendation", "detection"],
+    technologyIds: ["ai", "iot", "mobile", "web", "analytics", "wearables"],
+  },
+  {
+    id: "education",
+    name: "Education",
+    description: "Learning outcomes, assessment, engagement, and classroom operations.",
+    problemTypeIds: ["recommendation", "management", "assessment", "prediction", "communication"],
+    technologyIds: ["ai", "web", "mobile", "analytics", "arvr"],
+  },
+  {
+    id: "business",
+    name: "Business",
+    description: "Operations, customer experience, inventory, and finance workflows.",
+    problemTypeIds: ["management", "optimization", "tracking", "prediction", "verification"],
+    technologyIds: ["web", "mobile", "analytics", "automation", "blockchain", "ai"],
+  },
+  {
+    id: "agriculture",
+    name: "Agriculture",
+    description: "Crop care, irrigation, logistics, and precision farming.",
+    problemTypeIds: ["monitoring", "prediction", "optimization", "tracking", "automation"],
+    technologyIds: ["iot", "ai", "mobile", "analytics", "robotics", "gis"],
+  },
+  {
+    id: "smart-city",
+    name: "Smart City",
+    description: "Urban services, public safety, mobility, and civic operations.",
+    problemTypeIds: ["monitoring", "management", "tracking", "optimization", "detection"],
+    technologyIds: ["iot", "analytics", "web", "mobile", "gis", "automation"],
+  },
+  {
+    id: "environment",
+    name: "Environment",
+    description: "Sustainability, energy, air quality, and environmental risk management.",
+    problemTypeIds: ["monitoring", "prediction", "assessment", "optimization", "detection"],
+    technologyIds: ["iot", "analytics", "ai", "gis", "mobile"],
+  },
+  {
+    id: "transportation",
+    name: "Transportation",
+    description: "Fleet management, routing, safety, and logistics planning.",
+    problemTypeIds: ["tracking", "optimization", "prediction", "management", "detection"],
+    technologyIds: ["gis", "mobile", "analytics", "iot", "ai"],
+  },
+  {
+    id: "hospitality",
+    name: "Hospitality",
+    description: "Guest services, reservations, experiences, and facility operations.",
+    problemTypeIds: ["management", "recommendation", "communication", "tracking"],
+    technologyIds: ["mobile", "web", "ai", "analytics", "automation"],
+  },
+];
