@@ -4,36 +4,47 @@ function AppHeader({ theme, onToggleTheme }) {
     <header className="heroBar">
       <div className="container py-4 py-lg-5">
         <div className="heroCard">
-          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap mb-3">
-            <p className="heroEyebrow mb-0">
-              {/* Frontend-only / Template engine / Local persistence */}
-            </p>
-            
-          </div>
+          <div className="heroTopRow">
+            <p className="heroEyebrow mb-0">Frontend-only / Template engine / Local persistence</p>
 
-          <div className="d-flex flex-column flex-lg-row justify-content-left align-items-lg-start gap-5">
-              <div>
-                <img src="/capsgen-cropped.png" style={{width: "15rem", borderRadius: "25%", objectFit: "cover;"}} alt="" /> 
-              </div>
-            <div>
-              <h1 className="heroTitle">Capsgen - Capstone Title Generator</h1>
-              <p className="heroSubtitle mb-0">
-                Generate structured and relevant capstone titles based on your chosen domain, technology, and problem scope.
-              </p>
-            </div>
+            {/* <button type="button" className="themeToggle" onClick={onToggleTheme}>
+              <i className={`fa-solid ${theme === "dark" ? "fa-sun" : "fa-moon"} me-2`}></i>
+              {theme === "dark" ? "Light mode" : "Dark mode"}
+            </button> */}
             <Switch theme={theme} onToggleTheme={onToggleTheme} />
-            {/* <div className="heroStat">
-              <span className="heroStatValue">Compact workflow</span>
-              <span className="heroStatLabel">Generate, compare, save, and refine faster</span>
-            </div> */}
           </div>
 
-          {/* <div className="heroPills">
-            <span>Batch generation</span>
-            <span>Token editing</span>
-            <span>Bookmarks</span>
+          <div className="heroBody">
+            <div className="heroBrand">
+              <div className="heroLogoWrap">
+                <img
+                  src="/capsgen-cropped.png"
+                  className="heroLogo"
+                  alt="Capsgen logo"
+                />
+              </div>
+
+              <div className="heroCopy">
+                <h1 className="heroTitle">Capsgen</h1>
+                <p className="heroSubtitle mb-0">
+                  Generate structured and relevant capstone titles based on your chosen
+                  domain, technology, and problem scope.
+                </p>
+              </div>
+            </div>
+
+            <div className="heroStat">
+              <span className="heroStatValue">Modern workflow</span>
+              <span className="heroStatLabel">Generate, compare, save, and refine in one space</span>
+            </div>
+          </div>
+
+          <div className="heroPills">
+            <span>Modern bento UI</span>
+            <span>Editable tokens</span>
+            <span>Favorites</span>
             <span>Seeded results</span>
-          </div> */}
+          </div>
         </div>
       </div>
     </header>

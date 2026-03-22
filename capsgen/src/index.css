@@ -156,12 +156,62 @@ select {
   pointer-events: none;
 }
 
+.heroTopRow {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
 .heroEyebrow {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: rgba(235, 243, 255, 0.76);
+}
+
+.heroBody {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.heroBrand {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.heroLogoWrap {
+  flex-shrink: 0;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 24px;
+  padding: 0.55rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(12px);
+}
+
+.heroLogo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.heroCopy {
+  min-width: 0;
 }
 
 .heroTitle {
@@ -207,6 +257,8 @@ select {
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .heroPills span {
@@ -637,6 +689,14 @@ select {
   .heroCard {
     padding: 1.3rem 1.2rem 1.15rem;
   }
+
+  .heroBody {
+    grid-template-columns: 1fr;
+  }
+
+  .heroStat {
+    min-width: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -652,6 +712,15 @@ select {
   .panelInner,
   .panelInnerLarge {
     padding: 0.95rem;
+  }
+
+  .heroBrand {
+    grid-template-columns: 1fr;
+  }
+
+  .heroLogoWrap {
+    width: 5.75rem;
+    height: 5.75rem;
   }
 
   .actionRow .btn {
