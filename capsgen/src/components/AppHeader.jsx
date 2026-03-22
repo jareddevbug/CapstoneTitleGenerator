@@ -5,14 +5,16 @@ function AppHeader({ theme, onToggleTheme }) {
       <div className="container py-4 py-lg-5">
         <div className="heroCard">
           <div className="heroTopRow">
-            <p className="heroEyebrow mb-0">Frontend-only / Template engine / Local persistence</p>
-
+            <p className="heroEyebrow mb-0">
+            © {new Date().getFullYear()} Jared SF. All rights reserved.
+            </p>
             {/* <button type="button" className="themeToggle" onClick={onToggleTheme}>
               <i className={`fa-solid ${theme === "dark" ? "fa-sun" : "fa-moon"} me-2`}></i>
               {theme === "dark" ? "Light mode" : "Dark mode"}
             </button> */}
             <Switch theme={theme} onToggleTheme={onToggleTheme} />
           </div>
+          <hr />
 
           <div className="heroBody">
             <div className="heroBrand">
